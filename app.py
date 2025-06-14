@@ -95,4 +95,4 @@ def enviar_correo():
 
 if __name__ == '__main__':
     print("DEBUG: Iniciando servidor Flask...")
-    app.run(debug=True)
+    app.run(debug=False)
