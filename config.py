@@ -14,7 +14,7 @@ class Config:
     TESTING = False
 
 class DevelopmentConfig(Config):
-    DEBUG = True
+    DEBUG = False
 
 class ProductionConfig(Config):
     SECRET_KEY = os.getenv('SECRET_KEY')  # En producción, NUNCA uses una clave por defecto

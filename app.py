@@ -95,6 +95,10 @@ def enviar_correo():
 
 if __name__ == '__main__':
     print("DEBUG: Iniciando servidor Flask...")
+<<<<<<< HEAD
     port = int(os.environ.get('PORT', 5000))  # Usa el puerto de Render o 5000 por defecto
     app.run(host='0.0.0.0', port=port)
     app.run(debug=False)
+=======
+    app.run(debug=False)
+>>>>>>> f41564e18fe77f2212a29caf0044274116ef4fa2
